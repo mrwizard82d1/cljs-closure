@@ -10,11 +10,14 @@
                  ;; though these are warnings, they seem to cause some
                  ;; instability with the interpreter. version 2511
                  ;; seems to be the last "clean" interpreter.
-                 [org.clojure/clojurescript "0.0-2511"]]
+                 [org.clojure/clojurescript "0.0-2511"]
+                 ;; Add dependencies to run the browser REPL.
+                 [compojure "1.3.2"]
+                 [ring/ring-jetty-adapter "1.3.2"]]
 
   ;; We need to add src/cljs too, because cljsbuild does not add its
   ;; source-paths to the project source-paths
-  :source-paths ["src/clj" "src/cljs" "test/clj" "test/cljs"] 
+  :source-paths ["src/clj" "test/clj"] 
 
   :plugins [[lein-cljsbuild "1.0.5"]]
 

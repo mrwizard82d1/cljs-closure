@@ -16,7 +16,14 @@ pom.xml
 .lein-cljsbuild*
 .lein-repl*
 .crossover-cljs
-.repl
+.repl*
+.nrepl-port
+
+# Backup files
+*~
+
+# Editor files
+*swp
 
 # =========================
 # Operating System Files
