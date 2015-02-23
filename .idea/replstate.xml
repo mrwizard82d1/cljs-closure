@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ReplState" timestamp="1424722373262">{:repl-history {:ide [], :local [], :remote [&quot;(cljs.repl (cljs.repl.browser/repl-env))&quot; &quot;(use 'ring.adapter.jetty)&quot; &quot;(use 'compojure.route)&quot; &quot;(run-jetty (resources \&quot;/\&quot;) {:port 3000 :join? false})&quot; &quot;(require 'cljs.repl)&quot; &quot;(require 'cljs.repl.browser)&quot; &quot;(cljs.repl/repl (cljs.repl.browser/repl-env))&quot; &quot;(js/alert \&quot;Hello, bREPL!\&quot;)&quot;]}}</component>
+</project>

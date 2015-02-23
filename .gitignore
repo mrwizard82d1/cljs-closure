@@ -19,6 +19,11 @@ pom.xml
 .repl*
 .nrepl-port
 
+# IntelliJ files
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/libraries
+
 # Backup files
 *~
 
